@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>T1</title>
+
+    <link rel="stylesheet" href="student.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1>T1</h1>
+
+        <form id="formulario">
+
+            <label for="numeroControl">Número de control</label>
+
+            <input type="text"
+                   id="numeroControl"
+                   placeholder="Escribe tu número de control"
+                   required>
+
+            <label for="nombre">Nombre</label>
+
+            <input type="text"
+                   id="nombre"
+                   placeholder="Escribe el nombre"
+                   required>
+
+            <label for="carrera">Carrera</label>
+
+            <input type="text"
+                   id="carrera"
+                   placeholder="Escribe la carrera"
+                   required>
+
+            <button type="submit">
+                Guardar
+            </button>
+
+        </form>
+
+        <h2>Alumnos registrados</h2>
+
+        <div id="lista"></div>
+
+    </main>
+
+    <script src="students.js"></script>
+
+</body>
+
+</html>
